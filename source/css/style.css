@@ -220,6 +220,11 @@ td {
         display: block;
         text-align: center;
       }
+    
+     .info-text {
+        text-align: left;
+      }
+    
       .sendne {
         display: block;
         margin-right: 5px;
