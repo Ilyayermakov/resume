@@ -4,17 +4,20 @@
     margin: 0;
     padding: 0;
 }
+
 /* Верхняя страница Google-translate сокрыта */
 body {
     top: 0 !important;
-  }
-  .skiptranslate {
+}
+
+.skiptranslate {
     display: none;
     height: 0;
-  }
-  .language__img {
+}
+
+.language__img {
     cursor: pointer;
-  }
+}
 
 /* Общий текстовый формат */
 
@@ -219,33 +222,36 @@ td {
     .info {
         display: block;
         text-align: center;
-      }
-    
-     .info-text {
+    }
+
+    .info-text {
         text-align: left;
-      }
-    
-      .sendne {
+    }
+
+    .sendne {
         display: block;
         margin-right: 5px;
         margin-bottom: 5px;
-      }
+    }
 
-     h3 {
+    h3 {
         text-align: center;
-     }
-     .table {
+    }
+
+    .table {
         display: flex;
         flex-direction: column;
-      }
-      td {
+    }
+
+    td {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         width: 100%;
-      }
-      li {
+    }
+
+    li {
         text-align: center;
-      }
+    }
 }
