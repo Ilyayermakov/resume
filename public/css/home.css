@@ -1,0 +1,51 @@
+.avatar {
+    width: 275px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+.info {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin: 10px;
+}
+
+.info-text h4 {
+    margin-top: 20px;
+    color: #0c2455;
+}
+
+.info-text a {
+    color: #0c2455;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.info-text a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+@media only screen and (max-width: 749px) {
+
+    .info {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -10px;
+    }
+
+    .info-text {
+        text-align: left;
+        margin-right: 15px;
+    }
+}

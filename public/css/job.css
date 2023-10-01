@@ -1,0 +1,18 @@
+h2, h3 {
+    display: inline;
+    margin: 0;
+}
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    color: #0c2455;
+    text-decoration: none;
+}
+
+.oneJob {
+    box-shadow: 5px 5px 5px 1px #000000;
+    border-radius: 5px;
+    padding: 10px;
+}

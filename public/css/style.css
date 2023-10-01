@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Общий текстовый формат */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+    margin-top: 35px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+h3 {
+    font-style: italic;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+/* JQuery */
+
+.change {
+    z-index: 1;
+}
+
+.toChange {
+    display: none;
+    overflow: hidden;
+    z-index: 2;
+    transition: height 0.5s ease-in-out;
+}
+
+.toChange.active {
+    display: flex;
+    height: auto;
+}
+
+.toChange.active .change {
+    display: none;
+}
+
+/* JavaScript */
+
+.slide {
+    width: 100px;
+    height: 80px;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.slide.active {
+    width: 100%;
+    height: 100%;
+}
